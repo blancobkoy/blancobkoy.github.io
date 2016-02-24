@@ -1,10 +1,14 @@
-<div class="header-container">
-  <header>
-      <ul class="nav">
-        <!--Change the  URL here if working on an absolute domain-->
-        <li><a href="/white-paper"><span class="mega-octicon octicon-terminal" style="margin-right: 6px;"></span>White Paper</a></li>
-        <li><a href="/white-paper/about"><span class="mega-octicon octicon-person" style="margin-right: 6px;"></span>About</a></li>
-      </ul>
-  </header>
-  <script data-gratipay-username="vinitkme" data-gratipay-widget="button" src="//grtp.co/v1.js"></script>
-</div>
+<nav id="my-menu">
+  <div>
+    <p>{{ site.title }}</p>
+
+    <ul class="pages">
+      <li><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a></li>
+      <li><a href="{{ site.baseurl }}/posts/"><i class="fa fa-archive"></i> All Posts</a></li>
+      <li><a href="{{ site.baseurl }}/search/"><i class="fa fa-search"></i> Search</a></li>
+    </ul>
+
+    {% include social_links.html %}
+  </div>
+</nav>
+<div class="menu-button" href="#menu"><i class="fa fa-bars"></i></div>

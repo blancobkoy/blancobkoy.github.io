@@ -1,24 +1,56 @@
-White Paper
-============
+# Carte Noire
 
-White Paper is a jekyll theme for tech blogs. It is clean and simple with good semantic
-structure.
+A simple Jekyll theme for blogging. Not named after the coffee.
 
-![white-paper image](https://i.cloudup.com/rmZjQ83vRh-2000x2000.png)
+![Homepage](http://i.imgur.com/xlmHArV.png)
 
-## Usage:
+### Article
+![Article](http://i.imgur.com/8rD8FfC.png)
 
-- Install Jekyll from here(http://jekyllrb.com/)
-- Fork the project.
-- Change the fields in _config.yml.
-- Change the links in header.html.
+### Disqus Comments
+![Comments](http://i.imgur.com/TBZHQwF.png)
 
-Test the website live while editing the code:
+### Posts grouped by year
+![All Posts](http://i.imgur.com/9bNs2Sc.png)
 
-```sh
-jekyll server --watch
-```
+### JavaScript Search
+![Search](http://i.imgur.com/yQqMeSl.png)
 
-## Issues:
+### Menu by mmenu
+![Menu](http://i.imgur.com/SClrNSH.png)
 
-Report issues or feature request [here](https://github.com/vinitkumar/white-paper/issues).
+## Contact
+If you wish to contact me regarding this theme please raise an issue on GitHub,
+tweet me [@_jacobtomlinson](http://www.twitter.com/_jacobtomlinson) or email me
+[jacob@jacobtomlinson.co.uk](mailto:jacob@jacobtomlinson.co.uk).
+
+## Contribution
+Pull requests are very welcome.
+
+## Theme
+This jekyll theme has been created from scratch. Ideas and inspiration are taken
+from other places but the code is my own.
+
+## Tools and Libraries
+The following tools and libraries are used in this theme
+
+### JavaScript
+ * [jQuery](http://jquery.com/)
+ * [MMenu](http://mmenu.frebsite.nl/)
+ * [HighlightJS](https://highlightjs.org/)
+ * [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)
+
+### CSS
+ * [Bootstrap](http://getbootstrap.com/)
+ * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+
+### Social
+ * [AddThis](http://www.addthis.com/)
+ * [Disqus](https://disqus.com/)
+
+### Other
+ * [Real Favicon Generator](http://realfavicongenerator.net/)
+ * [Google Analytics](http://www.google.com/analytics/)
+
+## License
+The jekyll theme, HTML, CSS and JavaScript is licensed under GPLv3 (unless stated otherwise in the file).
