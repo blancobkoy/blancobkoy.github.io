@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="git,团队," />
 
 
 
@@ -84,15 +84,19 @@
 
 
 
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="剑之道">
-<meta property="og:url" content="http://blancobkoy.github.io/index.html">
+<meta name="description" content="启动背景从.net转到java组件团队已经2年多时间，从使用原有vss到搭建svn，svn的使用也有1年多了，随着队伍的壮大及自己越来越多使用github后，就有了用git替换svn的想法，当然基于成本及技术尝鲜的考虑，先在阿里云上自己搭建git服务器，之后再考虑是否托管给github。
+相关工具GitblitGitblit 是基于Java的快速编辑Git服务器搭建方案。优点：免费，搭建快速，对第">
+<meta property="og:type" content="article">
+<meta property="og:title" content="搭建团队git">
+<meta property="og:url" content="http://blancobkoy.github.io/2016/05/10/（url中显示的标题）/index.html">
 <meta property="og:site_name" content="剑之道">
-<meta property="og:description">
+<meta property="og:description" content="启动背景从.net转到java组件团队已经2年多时间，从使用原有vss到搭建svn，svn的使用也有1年多了，随着队伍的壮大及自己越来越多使用github后，就有了用git替换svn的想法，当然基于成本及技术尝鲜的考虑，先在阿里云上自己搭建git服务器，之后再考虑是否托管给github。
+相关工具GitblitGitblit 是基于Java的快速编辑Git服务器搭建方案。优点：免费，搭建快速，对第">
+<meta property="og:updated_time" content="2016-05-13T03:59:46.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="剑之道">
-<meta name="twitter:description">
+<meta name="twitter:title" content="搭建团队git">
+<meta name="twitter:description" content="启动背景从.net转到java组件团队已经2年多时间，从使用原有vss到搭建svn，svn的使用也有1年多了，随着队伍的壮大及自己越来越多使用github后，就有了用git替换svn的想法，当然基于成本及技术尝鲜的考虑，先在阿里云上自己搭建git服务器，之后再考虑是否托管给github。
+相关工具GitblitGitblit 是基于Java的快速编辑Git服务器搭建方案。优点：免费，搭建快速，对第">
 
 
 
@@ -110,7 +114,7 @@
   };
 </script>
 
-  <title> 剑之道 </title>
+  <title> 搭建团队git | 剑之道 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
@@ -131,9 +135,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -210,9 +212,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -232,10 +234,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/05/10/（url中显示的标题）/" itemprop="url">
-                  搭建团队git
-                </a>
+                搭建团队git
               
             
           </h1>
@@ -294,9 +293,7 @@
       
 
       
-        
-          
-            <h2 id="启动背景"><a href="#启动背景" class="headerlink" title="启动背景"></a>启动背景</h2><p>从.net转到java组件团队已经2年多时间，从使用原有vss到搭建svn，svn的使用也有1年多了，随着队伍的壮大及自己越来越多使用github后，就有了用git替换svn的想法，当然基于成本及技术尝鲜的考虑，先在阿里云上自己搭建git服务器，之后再考虑是否托管给github。</p>
+        <h2 id="启动背景"><a href="#启动背景" class="headerlink" title="启动背景"></a>启动背景</h2><p>从.net转到java组件团队已经2年多时间，从使用原有vss到搭建svn，svn的使用也有1年多了，随着队伍的壮大及自己越来越多使用github后，就有了用git替换svn的想法，当然基于成本及技术尝鲜的考虑，先在阿里云上自己搭建git服务器，之后再考虑是否托管给github。</p>
 <h2 id="相关工具"><a href="#相关工具" class="headerlink" title="相关工具"></a>相关工具</h2><p><a href="http://gitblit.com" target="_blank" rel="external">Gitblit</a><br>Gitblit 是基于Java的快速编辑Git服务器搭建方案。<br>优点：免费，搭建快速，对第三方git工具支持较好。<br>缺点：对主流的工作流模式比如 git flow支持较差，默认使用的自定义的工作流模型较弱。</p>
 <p><a href="www.sourcetreeapp.com">SourceTree</a><br>SourceTree 是 Windows 和Mac OS X 下免费的 Git 和 Hg 客户端，同时也是Mercurial和Subversion版本控制系统工具。支持创建、克隆、提交、push、pull 和合并等操作。<br>SourceTree拥有一个精美简洁的界面，大大简化了开发者与代码库之间的Git操作方式，这对于那些不熟悉Git命令的开发者来说非常实用。</p>
 <h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><h3 id="Service端"><a href="#Service端" class="headerlink" title="Service端"></a>Service端</h3><ul>
@@ -327,36 +324,46 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
-
+        <div class="post-tags">
+          
+            <a href="/tags/git/" rel="tag">#git</a>
+          
+            <a href="/tags/团队/" rel="tag">#团队</a>
+          
+        </div>
       
 
       
+
       
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -364,6 +371,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -383,8 +394,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -434,6 +454,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#启动背景"><span class="nav-number">1.</span> <span class="nav-text">启动背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相关工具"><span class="nav-number">2.</span> <span class="nav-text">相关工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#环境搭建"><span class="nav-number">3.</span> <span class="nav-text">环境搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Service端"><span class="nav-number">3.1.</span> <span class="nav-text">Service端</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Client端"><span class="nav-number">3.2.</span> <span class="nav-text">Client端</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用教程"><span class="nav-number">4.</span> <span class="nav-text">使用教程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Service端-1"><span class="nav-number">4.1.</span> <span class="nav-text">Service端</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Client端-1"><span class="nav-number">4.2.</span> <span class="nav-text">Client端</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#管理模式"><span class="nav-number">5.</span> <span class="nav-text">管理模式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#GitFlow"><span class="nav-number">5.1.</span> <span class="nav-text">GitFlow</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#开发人员"><span class="nav-number">5.2.</span> <span class="nav-text">开发人员</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#测试人员"><span class="nav-number">5.3.</span> <span class="nav-text">测试人员</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#代码管理人员"><span class="nav-number">5.4.</span> <span class="nav-text">代码管理人员</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">6.</span> <span class="nav-text">总结</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">6.1.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">6.2.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">6.3.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -530,6 +561,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
